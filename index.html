@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVA SCRIPT</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    /* Reset de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fuentes */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #333;
+}
+
+/* Barra de navegación */
+.Navbar {
+            background-color: #7a50e4;
+            overflow: hidden;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .Navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .Navbar a:hover {
+            background-color: #A3D1C6;
+            border-radius: 5px;
+        }
+
+/* Cabecera con imagen */
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+/* Sección de introducción */
+.intro {
+    background-color: #7a50e4;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+/* Sección de contenido */
+.sau {
+    background-color: #7a50e4;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: justify;
+}
+
+/* Sección sobre el dueño del sitio */
+.owner {
+    background-color: #7a50e4;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 80%;
+    text-align: center;
+}
+
+.owner-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.owner-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.owner-details {
+    text-align: left;
+}
+
+.owner-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.owner-details p {
+    font-size: 16px;
+    color: #555;
+}
+</style>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="Navbar">
+        <a href="index.html">Inicio</a>
+        <a href="definicion_y_proposito.HTML">Definición y Propósito</a>
+        <a href="historia.html">Historia</a>
+        <a href="importancia.html">Importancia</a>
+        <a href="funcionamiento.html">Funcionamiento</a>
+    </nav>
+       
+    <!-- Sección de cabecera con imagen -->
+
+        <img src="https://wsrv.nl/?url=https://codedamn-blog.s3.amazonaws.com/wp-content/uploads/2022/05/09152309/js-logo.png&w=1280&q=82&output=webp" alt="Imagen DNS" class="header-img" width="50">
+    </header>
+
+    <!-- Sección de Introducción -->
+    <section class="content intro">
+        <h2>INTRODUCCIÓN </h2>
+        <p>
+            JavaScript es un lenguaje de programación ampliamente utilizado para el desarrollo web. Es el encargado de agregar interactividad y dinamismo a las páginas web, permitiendo desde animaciones hasta funcionalidades avanzadas como el manejo de formularios, solicitudes a servidores y creación de aplicaciones web completas.
+
+            Nació en 1995 de la mano de Netscape y ha evolucionado hasta convertirse en un lenguaje esencial en el desarrollo web moderno. Es compatible con todos los navegadores y puede ejecutarse tanto en el cliente (navegador) como en el servidor mediante tecnologías como Node.js.
+            
+            JavaScript se basa en la manipulación del DOM (Document Object Model), lo que le permite modificar el contenido y la estructura de una página web en tiempo real. Además, cuenta con una gran comunidad y una amplia variedad de bibliotecas y frameworks, como React, Angular y Vue.js, que facilitan el desarrollo de aplicaciones web interactivas.
+            
+            Su versatilidad lo ha convertido en uno de los lenguajes más populares y demandados en el mundo de la programación.
+        </p>
+        <hr>
+    </section>
+
+    <!-- Sección de Contenido -->
+    <section class="content sau">
+       <center><h2>CONTENIDO</h2></center> 
+        <p>
+            JavaScript es un lenguaje de programación interpretado, ligero y orientado a objetos que se utiliza principalmente para el desarrollo web. Es el encargado de agregar interactividad y dinamismo a las páginas web, permitiendo efectos visuales, validación de formularios, manipulación del contenido HTML y comunicación con servidores.
+        </p>
+    </section>
+
+    <!-- Sección sobre el dueño del sitio -->
+    <section class="content owner">
+        <h2>Dueño del sitio:</h2>
+        <div class="owner-info">
+            <img src="IMG-20250228-WA0013.jpg" alt="Foto del dueño" class="owner-img">
+            <div class="owner-details">
+                <h3>Luis Pérez</h3>
+                <p>Desarrollador web y apasionado por la tecnología y la ciberseguridad. Este sitio fue creado con el objetivo de informar sobre el funcionamiento de JavaScript y su importancia en el mundo de la programación.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
